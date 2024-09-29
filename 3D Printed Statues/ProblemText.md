@@ -19,7 +19,7 @@ Output a single integer, the minimum number of days needed to print at least n s
 
 --------------------------------------------------------------------------------------------
 
-`My thinking:
+```My thinking:
 
 let s be number of statues to be printed
 let p be number of printers
@@ -56,4 +56,4 @@ s is larger than p
 s < p 
     each printer prints a statue
     8 statues printed
-`
+```
