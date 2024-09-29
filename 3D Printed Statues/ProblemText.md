@@ -19,7 +19,8 @@ Output a single integer, the minimum number of days needed to print at least n s
 
 --------------------------------------------------------------------------------------------
 
-```My thinking:
+```
+My thinking:
 
 let s be number of statues to be printed
 let p be number of printers
@@ -37,23 +38,4 @@ while s is larger than n
         d = d + 1
         return d
 
-Walkthrough
-
-let s = 8
-let p = 1
-let d = 0
-
-s is larger than p
-    print printer
-        p = 2
-        d = 1
-    print printer
-        p = 4
-        d = 2
-    print printer 
-        p = 8
-        d = 3
-s < p 
-    each printer prints a statue
-    8 statues printed
 ```
